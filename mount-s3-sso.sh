@@ -2,7 +2,7 @@
 
 usage() {
   echo "Usage: $0 -b <bucket> -m <mount_point> -p <profile>" >&2
-  echo "       $0 <bucket> <account> <mount_point>" >&2
+  echo "       $0 <bucket> <mount_point> <profile>" >&2
   echo "" >&2
   echo "This utility helps mount S3 buckets via short-lived SSO creds, using defined profiles" >&2
   echo "It uses the \"s3-mount\" command, see : https://aws.amazon.com/s3/features/mountpoint" >&2
