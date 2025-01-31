@@ -9,4 +9,5 @@ Follow the AWS documentation at: https://docs.aws.amazon.com/AmazonS3/latest/use
 Usage: ./mount-s3-sso.sh -b <bucket> -m <mount_point> -p <profile>
        ./mount-s3-sso.sh <bucket> <mount_point> <profile>
 
+## Screenshot of usage
 ![Usage Example](./usage_example.png)
